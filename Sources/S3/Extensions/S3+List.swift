@@ -26,7 +26,7 @@ extension S3 {
         }
         
         if let delimiter = delimiter, !delimiter.isEmpty {
-            queryItems.append(URLQueryItem(name: "delimeter", value: delimiter))
+            queryItems.append(URLQueryItem(name: "delimiter", value: delimiter))
         }
         
         components.queryItems = queryItems
